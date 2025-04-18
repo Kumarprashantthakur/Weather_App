@@ -1,6 +1,6 @@
 import WeatherApp from "./WeatherApp"
 import "./App.css";
-import Navbar from "./NavBar";
+import Navbar from "./Navbar";
 import viedoBg from "./assets/vedio2.mp4"
 import React from "react";
 function App() {
