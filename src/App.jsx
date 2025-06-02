@@ -1,22 +1,22 @@
 import WeatherApp from "./WeatherApp"
 import "./App.css";
 import Navbar from "./Navbar";
-import viedoBg from "./assets/vedio3.mp4"
+import Footer from "./Footer"; 
+import imageBg from "./assets/weather.jpg"
 import React from "react";
+
 function App() {
-
-
   return (
     <div className="app-container">
-     <video autoPlay muted loop className="background-video">
-        <source src={viedoBg} type="video/mp4" /></video>
-        <Navbar/>
-        <br />
-        <div className="content">
-     <WeatherApp/>
-     </div>
+      <img className="background-img" src={imageBg} alt="background" />
+      <Navbar />
+      <br />
+      <div className="content">
+        <WeatherApp />
+      </div>
+      <Footer/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

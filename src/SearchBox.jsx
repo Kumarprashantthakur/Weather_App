@@ -75,7 +75,7 @@ export default function SearchBox({ updateInfo }) {
                 <br /><br />
                 <Button
                     variant="outlined"
-                    color='error'
+                    color='sucess'
                     type='submit'
                     disabled={loading}
                 >
